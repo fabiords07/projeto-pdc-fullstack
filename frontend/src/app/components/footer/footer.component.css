@@ -1,0 +1,18 @@
+.footer-bg {
+  background-color: #0077d5;
+}
+
+.social-icon {
+  background-color: #0077d5 !important;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.social-icon:hover {
+  background-color: #005bb5 !important;
+  transform: scale(1.1);
+}
+
+.social-icon img {
+  filter: brightness(0) invert(1);
+}
