@@ -19,9 +19,10 @@ Site para apresentação de planos odontológicos com seções de apresentação
 - Angular Material 19.2.16
 - Axios 1.9.0
 
-### Backend (Em Desenvolvimento)
-- Python
-
+### Backend
+- Python 3.13
+- Django 5.2.2
+- SQLite 3
 
 ## 🔧 Como Executar
 
@@ -32,7 +33,14 @@ npm install
 ng serve
 \`\`\`
 
-Acesse: http://localhost:4200
+### Backend
+```
+cd backend
+python -m venv venv && venv\Scripts\activate && pip install -r requirements.txt
+python manage.py migrate && python manage.py createsuperuser
+python manage.py populate_plans && python manage.py runserver
+Acesse: http://localhost:8000
+```
 
 ## 🦷 Funcionalidades
 - ✅ Header com navegação
