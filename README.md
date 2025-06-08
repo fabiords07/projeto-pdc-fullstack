@@ -50,3 +50,7 @@ Acesse: http://localhost:8000
 - ✅ Footer
 - ✅ Design responsivo com Tailwind CSS
 - ✅ Componentes Angular Material
+
+## Video De Apresentação do Projeto
+
+🎥 **[Clique aqui e assista o vídeo de Apresentação](https://www.youtube.com/watch?v=H8IC3vd-o58)**
