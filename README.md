@@ -39,8 +39,8 @@ cd backend
 python -m venv venv && venv\Scripts\activate && pip install -r requirements.txt
 python manage.py migrate && python manage.py createsuperuser
 python manage.py populate_plans && python manage.py runserver
-Acesse: http://localhost:8000
 ```
+Acesse: http://localhost:8000
 
 ## 🦷 Funcionalidades
 - ✅ Header com navegação
