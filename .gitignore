@@ -31,3 +31,4 @@ pids
 
 # Tailwind
 frontend/tailwind.config.js
+*.pyc
